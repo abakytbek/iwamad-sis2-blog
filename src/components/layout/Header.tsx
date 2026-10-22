@@ -5,7 +5,12 @@ function Header() {
     <header className="site-header">
       <div className="container header-content">
         <NavLink to="/" className="logo">
-          Side Notes
+          <img 
+          src={`${import.meta.env.BASE_URL}logo.svg`}
+          alt=""
+          className="site-logo"
+          />
+          <span>Side Notes</span>
         </NavLink>
 
         <nav className="main-nav" aria-label="Main navigation">
